@@ -1,5 +1,5 @@
-public class BinarySearch {
-    public static boolean BinarySearchRun(int[] sortedArray, int target, int low, int high) {
+public class BinarySearchExample {
+    public static boolean BinarySearch(int[] sortedArray, int target, int low, int high) {
         int index = Integer.MIN_VALUE;
 
         while (low <= high) {
