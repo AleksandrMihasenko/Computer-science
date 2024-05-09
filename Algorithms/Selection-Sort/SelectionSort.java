@@ -1,5 +1,5 @@
 public class SelectionSortExample {
-    public static boolean selectionSor(int[] array) {
+    public static boolean selectionSort(int[] array) {
         for (int i = 0; i < array.length - 1; i++) {
             int minIndex = i;
 

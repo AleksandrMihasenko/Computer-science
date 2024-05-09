@@ -9,7 +9,7 @@ public class BinarySearchExample {
                 low = mid + 1;
             } else if (sortedArray[mid] > target) {
                 high = mid - 1;
-            } else if (sortedArray == target) {
+            } else if (sortedArray[mid] == target) {
                 index = mid;
                 break;
             }
