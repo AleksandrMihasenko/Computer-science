@@ -85,3 +85,6 @@ bower_components
 # Temporary folders
 tmp
 temp
+
+package.json
+package-lock.json
