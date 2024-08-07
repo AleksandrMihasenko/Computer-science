@@ -11,5 +11,5 @@ function isSubsequence(s: string, t: string): boolean {
     return i === s.length;
 }
 
-const result = isSubsequence("abc", "ahbgdc");
+const result = isSubsequence('abc', 'ahbgdc');
 console.log(result);
