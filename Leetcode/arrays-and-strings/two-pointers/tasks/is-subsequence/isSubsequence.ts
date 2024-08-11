@@ -6,10 +6,14 @@ function isSubsequence(s: string, t: string): boolean {
         if (s[i] === t[j]) {
             i++;
         }
+
         j++;
     }
     return i === s.length;
 }
+
+// Time: O(n);
+// Space: O(n);
 
 const result = isSubsequence('abc', 'ahbgdc');
 console.log(result);

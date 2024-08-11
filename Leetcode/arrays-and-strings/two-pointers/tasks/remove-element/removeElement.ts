@@ -11,5 +11,8 @@ function removeElement(nums: number[], val: number): number {
     return index;
 }
 
+// Time: O(n);
+// Space: O(n);
+
 const result = removeElement([3,2,2,3], 3);
 console.log(result);
