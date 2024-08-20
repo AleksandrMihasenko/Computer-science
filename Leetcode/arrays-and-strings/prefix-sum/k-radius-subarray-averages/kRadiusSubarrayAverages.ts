@@ -20,5 +20,5 @@ function getAverages(nums: number[], k: number): number[] {
 // Time: O(n);
 // Space: O(1);
 
-const result = getAverages([7,4,3,9,1,8,5,2,6], 3);
+const result = getAverages([7, 4, 3, 9, 1, 8, 5, 2, 6], 3);
 console.log(result);
