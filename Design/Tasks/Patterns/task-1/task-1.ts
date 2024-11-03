@@ -41,9 +41,11 @@ if (data) {
         }
     }
     for (const row of table) {
+        //@ts-ignore
         const a = Math.round((row[3] * 100) / max);
         row.push(a.toString());
     }
+    //@ts-ignore
     table.sort((r1, r2) => r2[5] - r1[5]);
     for (const row of table) {
         let s = row[0].padEnd(18);
