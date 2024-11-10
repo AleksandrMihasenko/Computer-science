@@ -1,3 +1,6 @@
+import { validateGroup, calculateTotal } from './validate';
+import { Exchange } from './expenses';
+
 const MAX_GROUP_TOTAL = 2000;
 
 const MOCKED_API_FOR_EXAMPLE = {
@@ -19,7 +22,6 @@ const basket = {
 
 const main = async () => {
     try {
-        // TODO should be implemented
         const validatedGroup = validateGroup(MAX_GROUP_TOTAL);
         const bill = calculateTotal(basket, validatedGroup);
         const openedExchange = await new Exchange(MOCKED_API_FOR_EXAMPLE);
